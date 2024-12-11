@@ -1,4 +1,4 @@
-# ---
+---
 layout:     post
 title:      使用wrangler创建hono的Worker
 subtitle:   " \"\""
@@ -56,6 +56,8 @@ export default app;
 在这个示例中，我们创建了一个 Hono 应用，并定义了一个处理根 URL (/) 的 GET 请求的路由。当访问该路由时，它将返回文本 "Hello, World with Hono!"。
 
 > ⚠️ 虽然 Hono 是为 Cloudflare Workers 优化的，但在编写复杂逻辑时仍需注意性能和资源使用情况，以确保在 Workers 的限制内运行。
+
+
 #### 6.本地调试
 使用 Cloudflare Workers 的内置工具或者 wrangler 来测试和调试你的应用：
 ```sh
